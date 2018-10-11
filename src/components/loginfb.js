@@ -32,6 +32,7 @@ class LoginFB extends Component {
             .then(res => {
                 this.props.history.push('/')
                 console.log('ddax poss')
+                window.alert("Post")
             }
             )
             .catch(err => console.log(err))

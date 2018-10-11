@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './CSS/style.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import LoginFB from './components/loginfb';
+import favicon from 'favicon'
 import axios from 'axios';
 axios.defaults.withCredentials = true;
 
