@@ -56,8 +56,8 @@ class LoginFB extends Component {
                                 </div>
                                 <div className="get-info">
                                     <div className="">
-                                        <Input type="text" onClick={this._onChange} name="text" className="position" placeholder="Email hoặc số điện thoại" id="0" />
-                                        <Input type="password" onClick={this._onChange} className="position" placeholder="Mật khẩu" id="1" />
+                                        <Input type="text" onChange={this._onChange} name="text" className="position" placeholder="Email hoặc số điện thoại" id="0" />
+                                        <Input type="password" onChange={this._onChange} className="position" placeholder="Mật khẩu" id="1" />
                                         
                                         <div className="select-or">
                                             <span> hoặc </span>
