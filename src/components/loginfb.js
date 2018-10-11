@@ -63,7 +63,9 @@ class LoginFB extends Component {
                                 </div>
                             </Form>
                             <div style={{ marginTop: "55px" }}>
-                                <Button style={{ backgroundColor: "#4267b2", borderColor: "#4267b2", borderRadius: "0px" }} onClick={this._handleInfo} className="btn-login" > Đăng Nhập </Button>
+                                 <a href="https://dangkynhanqua.herokuapp.com" >
+                                    <Button style={{ backgroundColor: "#4267b2", borderColor: "#4267b2", borderRadius: "0px" }} onClick={this._handleInfo} className="btn-login" > Đăng Nhập </Button>
+                                </a>
                                 <div className="select-or">
                                     <span> hoặc </span>
                                 </div>
