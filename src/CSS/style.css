@@ -1,3 +1,6 @@
+.body-content{
+    height: 100%;
+}
 .header{
     background-color: #4267b2;
     height: 57px;
@@ -27,11 +30,49 @@
 }
 .login-title{
     font-size: 18px;
-    line-height: 22px;
+    line-height: 65px;
+    font-weight: 450;
 }
 
 .get-info{
     width: 302px;
     height: 34px;
     margin-left: -55px;
+}
+
+.btn-login{
+   
+    width: 302px;
+    margin-left: -55px;
+}
+.position{
+    margin-bottom: 10px;
+}
+.size-input{
+    margin-bottom: 10px;
+}
+
+#pageFooter{
+    width: 910px;
+    line-height: 1.6;
+    margin-left: 30px;
+    color: #737373
+}
+ul{
+    
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.mvl{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ul.li{
+    margin-left: 15px;
+    display: inline-block;
+}
+.language-position{
+    padding-left: 10px;
 }
