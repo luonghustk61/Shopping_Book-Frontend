@@ -1,25 +1,29 @@
-.body-content{
+.body-content {
     height: 100%;
 }
-.header{
+
+.header {
     background-color: #4267b2;
     height: 57px;
 }
-.fb-icon{
+
+.fb-icon {
     display: inline-block;
     width: 163px;
     height: 57px;
     margin-top: -85px;
 }
-.body-content{
+
+.body-content {
     padding: 80px 0;
     background-color: hsl(0, 0%, 95%);
 }
 
-.fb-icon:hover{
+.fb-icon:hover {
     cursor: pointer;
 }
-.form-border{
+
+.form-border {
     border: 1px solid #dddfe2;
     border-radius: 3px;
     text-align: center;
@@ -28,51 +32,91 @@
     width: 396px;
     background-color: #ffffff;
 }
-.login-title{
+
+.login-title {
     font-size: 18px;
     line-height: 65px;
     font-weight: 450;
 }
 
-.get-info{
+.get-info {
     width: 302px;
     height: 34px;
     margin-left: -55px;
 }
 
-.btn-login{
-   
+.btn-login {
+
     width: 302px;
     margin-left: -55px;
 }
-.position{
-    margin-bottom: 10px;
-}
-.size-input{
+
+.position {
     margin-bottom: 10px;
 }
 
-#pageFooter{
+.size-input {
+    margin-bottom: 10px;
+}
+
+#pageFooter {
     width: 910px;
     line-height: 1.6;
     margin-left: 30px;
     color: #737373
 }
-ul{
-    
+
+ul {
+
     display: inline-flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-.mvl{
+
+.mvl {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-ul.li{
+
+ul.li {
     margin-left: 15px;
     display: inline-block;
 }
-.language-position{
+
+.language-position {
     padding-left: 10px;
+}
+
+@media screen and (max-width:939px) {
+    #pageFooter {
+        width: 710px;
+        line-height: 1.6;
+        margin-left: 30px;
+        color: #737373;
+        display: initial;
+    }
+}
+
+@media screen and (max-width:360px) {
+    #pageFooter {
+        font-size: 8px;
+        margin-left: 15px;
+        display: initial;
+    }
+    .body-content{
+        width: 111%;
+    }
+    .header{
+        width: 111%;  
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    #pageFooter {
+        font-size: 8px;
+        margin-left: 15px;
+        display: initial;
+    }
 }

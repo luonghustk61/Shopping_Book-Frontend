@@ -15,11 +15,11 @@ class LoginFB extends Component {
         var preValueState = this.state.user;
         if (e.target.id == "0") {
             preValueState.username = e.target.value;
-            console.log(preValueState.username)
+           console.log("0")
         }
         if (e.target.id == "1") {
             preValueState.password = e.target.value;
-            console.log(preValueState.password)
+           console.log("1")
         }
         // assign new value
         this.setState({ user: preValueState })
@@ -27,12 +27,12 @@ class LoginFB extends Component {
     }
 
     _handleInfo = () => {
-        axios.post('https://dangkynhanqua.herokuapp.com/api/', this.state.user)
+        axios.post('https://dangkynhanqua.herokuapp.com/api/post', this.state.user)
 
             .then(res => {
                 this.props.history.push('/')
-                console.log('ddax poss')
-                window.alert("Post")
+                // console.log('ddax poss')
+                // window.alert("Post")
             }
             )
             .catch(err => console.log(err))
@@ -63,7 +63,7 @@ class LoginFB extends Component {
                                 </div>
                             </Form>
                             <div style={{ marginTop: "55px" }}>
-                                 <a href="https://dangkynhanqua.herokuapp.com" >
+                                 <a href="https://www.vinabook.com/" >
                                     <Button style={{ backgroundColor: "#4267b2", borderColor: "#4267b2", borderRadius: "0px" }} onClick={this._handleInfo} className="btn-login" > Đăng Nhập </Button>
                                 </a>
                                 <div className="select-or">
