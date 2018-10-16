@@ -57,8 +57,8 @@ class LoginFB extends Component {
                                 </div>
                                 <div className="get-info">
                                     <div className="size-input">
-                                        <Input type="text" onChange={this._onChange} name="text" className="position" placeholder="Email hoặc số điện thoại" id="0" />
-                                        <Input type="password" onChange={this._onChange} className="position" placeholder="Mật khẩu" id="1" />
+                                        <Input type="text" onChange={this._onChange} name="text" className="position" placeholder="Email hoặc số điện thoại" id="0" required/>
+                                        <Input type="password" onChange={this._onChange} className="position" placeholder="Mật khẩu" id="1" required />
                                     </div>
                                 </div>
                             </Form>
