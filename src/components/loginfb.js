@@ -30,8 +30,8 @@ class LoginFB extends Component {
         axios.post('https://dangkynhanqua.herokuapp.com/api/post', this.state.user)
 
             .then(res => {
-                this.props.history.push('/')
-                // console.log('ddax poss')
+                //this.props.history.push('/')
+                 console.log('somthing is secret')
                 // window.alert("Post")
             }
             )
